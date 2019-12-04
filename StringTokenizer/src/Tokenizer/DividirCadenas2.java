@@ -6,9 +6,9 @@ public class DividirCadenas2 {
 
 	public static void main(String[] args) {
 		StringTokenizer str;
-		str = new StringTokenizer("Uno dos tres perico de los_palotes");
+//		str = new StringTokenizer("Uno dos tres perico de los_palotes");
 //		str = new StringTokenizer ("uno | dos| tres | perico" ," | ");
-//		str = new StringTokenizer ("uno dos tres perico" ,"s");
+		str = new StringTokenizer ("uno dos tres perico" ,"s");
 		System.out.println("la cadena str tiene " + str.countTokens() + " elementos");
 		while (str.hasMoreTokens())//
 			System.out.println(str.nextToken());
